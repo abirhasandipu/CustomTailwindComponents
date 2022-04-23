@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      with: {
+        '128': '32rem',
+      }
+    },
   },
   plugins: [],
 }
